@@ -1,7 +1,8 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import { DatePicker } from 'antd';
-import Draw from './draw';
+
+import { Drawer} from 'antd';
 require('../../src/css/searchList.css');
 require('../../src/css/detailShow.css');
 class DetailShow extends React.Component{
@@ -11,9 +12,20 @@ class DetailShow extends React.Component{
             list:[],
             startValue: null,
             endValue: null,
-            flag:1
+            flag:1,
+            visible: false
         }
     }
+    showDrawer = () => {
+      this.setState({
+        visible: true,
+      });
+    };
+    onClose = () => {
+      this.setState({
+        visible: false,
+      });
+    };
     disabledStartDate(startValue) {
         if (!startValue || !this.state.endValue) {
           return false;
@@ -59,7 +71,7 @@ class DetailShow extends React.Component{
    
 
     render(){
-     
+       
         var date=new Date();
         var date2 = new Date();
         date2.setTime(date2.getTime()+24*60*60*1000*2);
@@ -121,7 +133,19 @@ class DetailShow extends React.Component{
         <div className='detailShow'>
            <div className='detailIndex'>
            <a onClick={()=>this.scrollToAnchor('cost')}><div className='detailIndexKey'>信息与价格</div></a>
-          <a ><div className='detailIndexKey'><Draw/></div></a>
+          <div className='detailIndexKey' onClick={this.showDrawer.bind(this)}>设施</div>
+          <Drawer
+          
+          title="Basic Drawer"
+          closable={false}
+          onClose={this.onClose.bind(this)}
+          visible={this.state.visible}
+          
+        >
+          <p>Some contents...</p>
+          <p>Some contents...</p>
+          <p>Some contents...</p>
+          </Drawer>
           <a onClick={()=>this.scrollToAnchor('rule')}><div className='detailIndexKey'>规定</div></a>
           <a onClick={()=>this.scrollToAnchor('shouldKnow')}><div className='detailIndexKey'>须知</div></a>
           <a onClick={()=>this.scrollToAnchor('comment')}><div className='detailIndexKey'>评论</div></a>
@@ -165,7 +189,10 @@ class DetailShow extends React.Component{
            <div id='comment' className='detailComment'>评论</div>
           
         </div>
-        </div>)
+        
+     
+        </div>
+        )
     }
 }
 export default DetailShow

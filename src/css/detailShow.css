@@ -13,8 +13,6 @@ margin: 20px;
 .detailShow{
     float: left;
     width: 750px;
-    
-    
     margin-top: 20px;
     overflow: auto;
 }
@@ -39,32 +37,32 @@ margin: 20px;
 }
 .detailCost{
     width: 710px;
-    height: 100px;
-   
+    min-height: 100px;
+    height: auto;
     margin: 20px;
 }
 .detailFacility{
     width: 710px;
-    height: 100px;
-    
+    min-height: 100px;
+    height: auto;
     margin: 20px;
 }
 .detailRule{
     width: 710px;
-    height: 100px;
-    
+    min-height: 100px;
+    height: auto;
     margin: 20px;
 }
 .detailShouldKnow{
     width: 710px;
-    height: 100px;
-    
+    min-height: 100px;
+    height: auto;
     margin: 20px;
 }
 .detailComment{
     width: 710px;
-    height: 100px;
-    
+    min-height: 100px;
+    height: auto;
     margin: 20px;
 }
 .detailIndexKey{
