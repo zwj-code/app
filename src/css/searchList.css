@@ -1,0 +1,152 @@
+
+.backgroundBox{
+    margin: 0 auto;
+   
+    width: 1100px;
+    min-height: 1000px;
+  
+  }
+  .searchList{
+    float: left;
+    background: #ffc489;
+    width: 250px;
+    min-height:450px;
+    margin: 20px;
+    overflow:auto 
+  }
+  .searchHotel{
+    float: left;
+   
+    width: 770px;
+    height: 800px;
+    margin: 20px;
+  }
+  .searchCount{
+    margin: 10px auto;
+   font-size: 30px;
+    width: 90%;
+    height: 50px;
+  }
+  .searchContent{
+    margin: 10px auto;
+    border: 1px solid #c6c6c6;
+    width: 90%;
+    min-height: 270px;
+    
+    overflow:auto 
+    
+  }
+  .searchPicture{
+    float: left;
+   
+    width: 220px;
+    height: 220px;
+    margin: 10px ;
+    margin-top: 25px;
+  }
+  
+  .searchPicture img{  
+    width: auto;  
+    height: auto;  
+    max-width: 100%;  
+    max-height: 100%;     
+  }
+  .searchdetail{
+    float: left;
+  
+    width: 430px;
+    min-height: 220px;
+    margin: 5px;
+    margin-top: 20px;
+    
+    
+  }
+  .searchSelect{
+    width: 200px;
+    height: 30px;
+    margin-left: 25px;
+  }
+  .searchSelect2{
+    width: 95px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  .searchSelect3{
+    width: 95px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .searchListTitle{
+    height: 50px;
+    background-color:#febb02;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 5px;
+    padding:10px
+  }
+  .searchList button{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 25px;
+    background-color: #0071c2;
+    border: 1px solid #0071c2;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  .searchdetail ul{ 
+    height: 100px;
+    float: left;
+    width: 300px;
+    padding-left: 0;
+  }
+  .estimate1{
+    height: 100px;
+    width: 100px;
+    color: #0071c2;
+    float: right;
+    margin: 15px;
+  }
+  .estimate2{
+    height: 50px;
+    width: 100px;
+    font-weight: 500;
+    font-size: 25px;
+    float: right;
+    margin: 15px;
+  }
+  .searchListTitle1{
+    padding: 10px;
+  }
+  .fontsize{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .fontsize2{
+    font-size: 12px;
+  }
+  .fontsize3{
+    font-size: 12px;
+    color: green;
+  }
+  .fontsize4{
+    font-size: 12px;
+    color: red;
+  }
+  .fontsize5{
+    font-size: 20px;
+    color: blue;
+  }
+  .searchdetail button{
+    border: 1px solid #0071c2;
+    border-radius: 2px;
+    align-items: center;
+    text-align: left;
+    background-color: #0071c2;
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    font-size: 13px;
+  }
