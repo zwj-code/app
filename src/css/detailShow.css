@@ -1,0 +1,101 @@
+.orderNow{
+width: 250px;
+height: 100px;
+margin: 20px;
+
+}
+.searchList-before{
+    width: 290px;
+    
+    float: left;
+    margin: 20px;
+}
+.detailShow{
+    float: left;
+    width: 750px;
+    
+    
+    margin-top: 20px;
+    overflow: auto;
+}
+.detailIndex{
+    width: 710px;
+    height: 50px;
+    border-bottom-color: black;
+    border: 3px;
+    margin: 20px;
+}
+.detailTitle{
+    width: 710px;
+    height: 50px;
+    
+    margin: 20px;
+}
+.detailPicture{
+    width: 710px;
+    height: 500px;
+    
+    margin: 20px;
+}
+.detailCost{
+    width: 710px;
+    height: 100px;
+   
+    margin: 20px;
+}
+.detailFacility{
+    width: 710px;
+    height: 100px;
+    
+    margin: 20px;
+}
+.detailRule{
+    width: 710px;
+    height: 100px;
+    
+    margin: 20px;
+}
+.detailShouldKnow{
+    width: 710px;
+    height: 100px;
+    
+    margin: 20px;
+}
+.detailComment{
+    width: 710px;
+    height: 100px;
+    
+    margin: 20px;
+}
+.detailIndexKey{
+    float: left;
+    height: 30px;
+    min-width: 100px;
+    width: auto;
+    background-color: #ebf3ff;
+    margin: 1px;
+    text-align: center;
+    color: #0071c2;
+    font-weight: bold;
+    padding: 5px;
+}
+.detailFont{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+      
+}
+.searchPicture2{
+    float: left;
+   
+    width: 335px;
+    height: auto;
+    margin-left: 10px ;
+    margin-top: 10px;
+  }
+.searchPicture2 img{  
+    width: auto;  
+    height: auto;  
+    max-width: 100%;  
+    max-height: 100%;     
+  }

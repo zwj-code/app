@@ -4,15 +4,12 @@ import { DatePicker } from 'antd';
 require('../../src/css/searchList.css');
 class SearchList extends React.Component{
     constructor(props){
-      super(props) 
-         
-      this.state={
-        
-        list:[],
-        
-        startValue: null,
-        endValue: null,
-        flag:1
+      super(props)    
+        this.state={
+           list:[],
+           startValue: null,
+           endValue: null,
+           flag:1
       }
     }
   
@@ -62,15 +59,6 @@ class SearchList extends React.Component{
          <div className='searchList'>
           <div className='searchListTitle'>
             境内外特价搜不停
-            </div>
-            <div>
-            
-            <div>
-        
-  
-        
-        </div>
-  
         </div>
           <div　className='searchListTitle1'>目的地/住宿名称：</div>
           <select className='searchSelect'>
